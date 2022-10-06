@@ -1,0 +1,106 @@
+* {
+}
+body {
+  background-color: #fbfbfb;
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  color: hsl(175deg 55% 34%);
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: hsl(175deg 55% 34%);
+  opacity: 0.8;
+  border-radius: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1rem;
+}
+nav a:link {
+  color: rgb(206 219 75);
+  text-decoration: none;
+}
+nav a:visited {
+  color: rgb(243 182 0);
+}
+nav a:hover {
+  color: black;
+}
+nav a:active {
+  color: whitesmoke;
+  background-color: black;
+}
+
+section {
+  display: flex;
+  text-align: center;
+}
+article {
+  flex: 1;
+}
+footer {
+  display: flex;
+  color: hsl(175deg 55% 34%);
+}
+footer div {
+  flex: 1;
+}
+footer img {
+  width: 5%;
+}
+footer div p {
+  text-align: end;
+}
+#copyright {
+  margin-top: 1.8rem;
+}
+section img {
+  border-radius: 1rem;
+  margin: 1rem;
+}
+#promotions img {
+  color: white;
+  margin: 1rem;
+  opacity: 0.7;
+  height: 30rem;
+}
+#promotions > h1 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#promotions > p {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#second_row article {
+  background-color: #8bffd340;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+#second_row article:hover {
+  transform: scale(1.01);
+}
